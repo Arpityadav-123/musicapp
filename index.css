@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    
+    min-height: 5000px;
+    padding-left: 1px;
+    font-weight: 700;
+    background-color: rgba(0,0,0,.04);
+}
+
+/* navigation bar of the page  */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    height: 76px;
+    align-items: center;
+    border-bottom: 1px solid rgb(201, 63, 20);
+}
+.logo_container {
+       min-width: 100px;
+       padding-left: 10px;
+}
+.nav_container a{
+    text-decoration: none;
+    letter-spacing: .3px;
+    font-size: 15px;
+    font-weight: 570;
+    color: rgba(37, 37, 37, .9);
+    border: 1px solid transparent;  /*Unexpected navigation bar moving on hover*/
+}
+.nav_container{
+    top: 1;
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.main_container a:hover{
+    border-bottom: 2.3px solid rgba(73, 95, 35, 0.938);}
+.actioncontainer a:hover{
+    border-bottom: 2.3px solid rgba(73, 95, 35, 0.938);
+}
+
+.search_container{
+    width: 45%;
+    padding: 11px;
+
+}
+.search_container input{
+    width: 80%;
+    height: 42px;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+}
+/* .search_icon{
+    color:rgba(0, 0, 0, .04); 
+} */
+
+/* .action_container{
+    min-width: 200px; */
+/* .main_bar{
+    display: flex;
+    min-width: 100px;
+}  */
+.main_container a{
+    min-width: 75px;
+    padding-bottom: 32px;
+}
+.main_container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid transparent;
+
+}
+
+/* language selection */
+.drop-down{
+    max-width: 145px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    border: 1px;
+    /* min-width: 10px; */
+}
+.drop-down a{
+}
+.languages_option{
+margin-top: 1000px;
+}
+#all_lang{
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    font-weight: 548;
+}
+#hindi_lang{
+    /* float: left; */
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.actioncontainer{
+    border-bottom: 1px solid transparent;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.actioncontainer a{
+    min-width: 70px;
+    padding-bottom: 32px;
+}
+
+/* navbar exit */
+/* ----------------------------------------------------------------------- */
+
+/* side bar of the home page */
+.sidebar a{
+    display: block;
+    
+    text-decoration: none;
+    color: rgb(51, 48, 48);
+    text-align: justify;
+    padding: 5px;
+    text-shadow: 1px rgb(179, 176, 176);
+    font-weight: 500;
+    
+}
+/* sidebar headings */
+h6{
+    color: #6f7074;
+    padding-top: 14px;
+    font-size: 11.4px;
+    font-weight: 799.8;
+    padding-bottom: 14px;
+    
+    
+}
+
+/* sidebar all settings */
+.sidebar{
+    bottom: 0;
+    border: 1px solid rgba(0,0,0,.01);
+    width: 15%;
+    top: 0;
+    height: 65%;
+    margin-top: 85px;
+    padding-left: 40px;
+    max-width: 200px;
+    z-index: 3;
+    position: fixed;
+    overflow-y: scroll; /*sidebar scroll from here*/
+    text-transform: capitalize;
+    /* height: 100dvh; here vh is visual height of the page of the user means full length get by the block of the page */
+    
+
+}
+.sidebar  a:hover{
+    color: black;
+    font-weight: 538;
+}
+
+/* creating effects on scroll-bar  */
+
+.sidebar::-webkit-scrollbar{
+    height: 100%;
+    width: 13px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: rgba(90, 44, 128, 0.466);
+}
+.sidebar::-webkit-scrollbar-track{
+    background-color:rgba(64, 182, 166, 0.26);
+}
+/* adding songs in playlist by user */
+#new_playlist{
+    text-align: center;
+   margin: 35px 0 0 7px;
+    border: 1.6px solid aquamarine;
+    padding: 10px 0px 10px 0px;
+    border-radius: 30px;
+    border-style: groove;
+    color: rgb(81, 209, 164);
+    
+}
+#new_playlist:hover{
+    color: rgb(120, 182, 160);
+    border-color:rgb(120, 182, 160) ;
+}
+
