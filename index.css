@@ -19,7 +19,7 @@ header{
     margin: 2px;
     height: 76px;
     align-items: center;
-    border-bottom: 1px solid rgb(201, 63, 20);
+    border-bottom: 1px solid white;
 }
 .logo_container {
        min-width: 100px;
@@ -93,11 +93,10 @@ header{
     border: 1px;
     /* min-width: 10px; */
 }
-.drop-down a{
-}
-.languages_option{
-margin-top: 1000px;
-}
+/* .drop-down a{
+
+} */
+
 #all_lang{
     font-size: 15px;
     color:rgb(0, 0, 0);
