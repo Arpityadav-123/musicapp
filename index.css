@@ -201,5 +201,7 @@ h6{
 /* stying of main content box which kept albums */
 .all-albums{
     margin-left: 18%;
+    font-size: 17px;
+    font-weight: 500;
 }
 
