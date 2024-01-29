@@ -198,4 +198,8 @@ h6{
     color: rgb(120, 182, 160);
     border-color:rgb(120, 182, 160) ;
 }
+/* stying of main content box which kept albums */
+.all-albums{
+    margin-left: 18%;
+}
 
