@@ -204,4 +204,91 @@ h6{
     font-size: 17px;
     font-weight: 500;
 }
+.albums{
+    display: flex;
+    flex-direction: column;
+}
+.trending_songs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.trending_songs img{
+    margin-top: 30px;
+    width: 116px;
+}
+.topcharts{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topcharts img{
+    margin-top: 25px;
+    width: 116px;
+}
+.new_releases{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
+}
+.new_releases img{
+    margin-top: 25px;
+    width: 116px;
+}
+.editorial-picks{
+
+}
+.radio-station{
+
+}
+.Top_Genres_Moods{
+
+}
+.pickyourmood{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.pickyourmood img{
+    margin-top: 25px;
+    width: 150px;
+
+}
+.bestofold{
+
+}
+.bestofold img{
+    margin-top: 25px;
+    width: 150px;
+ 
+}
+.new_releases-pop{
+
+}
+.new_releases-pop img{
+    margin-top: 25px;
+    width: 124px;
+}
+.religion{
+
+}
+.religion img{
+    margin-top: 25px;
+    width: 140px;
+}
+.topalbum{
+
+}
+.topalbum img{
+    margin-top: 25px;
+    width: 150px;
+}
+.jairam{
+
+}
+.jairam img{
+    margin-top: 25px;
+    width: 160px;
+}
