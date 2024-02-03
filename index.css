@@ -12,7 +12,7 @@ body{
     min-height: 5000px;
     padding-left: 1px;
     font-weight: 700;
-    background-color: rgba(0,0,0,.04);
+    background-color: rgb(211, 211, 202);
 }
 
 /* navigation bar of the page  */
@@ -22,7 +22,8 @@ header{
     margin: 2px;
     height: 76px;
     align-items: center;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(211, 211, 202);
+   
 }
 .logo_container {
        min-width: 100px;
@@ -37,13 +38,13 @@ header{
     border: 1px solid transparent;  /*Unexpected navigation bar moving on hover*/
 }
 .nav_container{
-    top: 1;
+    top: 0;
     display: flex;
     min-width: 100%;
     justify-content: space-between;
     position: fixed;
     z-index: 1000;
-    
+    background-color: rgb(211, 211, 202);
 }
 .main_container a:hover{
     border-bottom: 2.3px solid rgba(73, 95, 35, 0.938);}
@@ -221,6 +222,7 @@ h6{
 .topcharts{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .topcharts img{
     margin-top: 25px;
@@ -230,6 +232,7 @@ h6{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 40px;
 
 }
 .new_releases img{
@@ -237,13 +240,18 @@ h6{
     width: 116px;
 }
 .editorial-picks{
+    margin-bottom: 40px;
 
 }
 .editorial-picks img{
     margin-top: 25px;
     width: 116px;
 }
+.trending-podcasts{
+    margin-bottom: 40px;
+}
 .radio-station{
+    margin-bottom: 40px;
     
 }
 .radio-station img{
@@ -251,6 +259,8 @@ h6{
     width: 116px;
 }
 .Top_Genres_Moods{
+    margin-top: 20px;
+    margin-bottom: 40px;
 
 }
 .Top_Genres_Moods img{
@@ -261,6 +271,7 @@ h6{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 
 }
 .pickyourmood img{
@@ -269,6 +280,8 @@ h6{
 
 }
 .bestofold{
+    margin-top: 20px;
+    margin-bottom: 40px;
 
 }
 .bestofold img{
@@ -281,28 +294,32 @@ h6{
  
 }
 .new_releases-pop{
-
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .new_releases-pop img{
     margin-top: 25px;
     width: 124px;
 }
 .religion{
-
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .religion img{
     margin-top: 25px;
     width: 140px;
 }
 .topalbum{
-
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .topalbum img{
     margin-top: 25px;
     width: 150px;
 }
 .jairam{
-
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 .jairam img{
     margin-top: 25px;
