@@ -239,11 +239,23 @@ h6{
 .editorial-picks{
 
 }
+.editorial-picks img{
+    margin-top: 25px;
+    width: 116px;
+}
 .radio-station{
-
+    
+}
+.radio-station img{
+    margin-top: 25px;
+    width: 116px;
 }
 .Top_Genres_Moods{
 
+}
+.Top_Genres_Moods img{
+    margin-top: 25px;
+    width: 116px;
 }
 .pickyourmood{
     display: flex;
@@ -258,6 +270,10 @@ h6{
 }
 .bestofold{
 
+}
+.bestofold img{
+    margin-top: 25px;
+    width: 150px;
 }
 .bestofold img{
     margin-top: 25px;
